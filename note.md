@@ -41,7 +41,7 @@ file externe
 style
 
 ### les pseudo-clases
-
+la propriété "display :flex;" transforme l'élement a la quelle est est appliquer en conteneur flex
 
 
 ## JavaScript
