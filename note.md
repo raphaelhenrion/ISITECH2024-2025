@@ -60,3 +60,8 @@ pour sauvegarder on procede en deux étapes :
 on ajoute les fichiers a sauvegarder avec la commande : git add . 
 
 pour sauvegarder : git commit -m "message de sauvegarde"
+
+pour en
+git remote add origin https://raphaelhenrion:<token>@github.com/raphaelhenrion/ISITECH2024-2025.git
+
+récuperer le token sur github
