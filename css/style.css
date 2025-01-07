@@ -1,0 +1,57 @@
+body{
+    background-color: #65ffa0;
+}
+
+/* ceci est un commentaire css */
+
+.header{
+    font-size: 75px;
+    color: blue;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-shadow: 1px 2px 1px black;
+    font-weight: bold;
+}
+
+.home {
+    width:35px;
+    height:35px;
+}
+
+.frrouge{
+    background-color: red;
+    display: flex;
+}
+
+.frbleu{
+    padding-top : 20%;
+    padding-left: 27%;
+    font-size: 50px;
+    color: blue;
+    background-color: blue;
+}
+
+.frblanc{
+    padding-left: 27%;
+    font-size: 50px;
+    color : white;
+    background-color: white;
+}
+
+
+
+p {
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    text-shadow: 1px 0.5px 7px gray;
+    font-family: "Dancing Script", serif;
+}
+
+footer{
+    font-family: "Noto Sans HK", serif;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
