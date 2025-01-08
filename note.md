@@ -150,3 +150,17 @@ pour sauvegarder : git commit -m "message de sauvegarde"
 git remote add origin https://raphaelhenrion:<token>@github.com/raphaelhenrion/ISITECH2024-2025.git
 
 récuperer le token sur github
+
+### nouveau repertoire github
+echo "# f" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://raphaelhenrion:<token>@github.com/raphaelhenrion/ISITECH2024-2025.git
+git push -u origin main
+
+# repertoire existant
+git remote add origin https://raphaelhenrion:<token>@github.com/raphaelhenrion/ISITECH2024-2025.git
+git branch -M main
+git push -u origin main
