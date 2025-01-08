@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -90,3 +94,34 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+#scrollToTopButton {
+    transition: background-color 0.2s, opacity 0.4s, visibility 0.4s;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    border: none;
+    border-radius: 7px;
+    width: 40px;
+    height: 40px;
+    background-color: #1e2125;
+  }
+  
+  #scrollToTopButton:hover,
+  #scrollToTopButton:focus,
+  #scrollToTopButton:focus-within {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+    filter: none;
+  }
+  
+  #scrollToTopButton img.i {
+    width: 20px;  
+    height: 20px;  
+    filter: invert(1);  
+  }
+
+  #scrollToTopButton:hover img.i {
+    filter: none;
+  }
+  
