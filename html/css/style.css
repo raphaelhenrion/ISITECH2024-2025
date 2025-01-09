@@ -29,9 +29,17 @@ body{
 .home{
     width:30px;
     height:30px;
-    filter: invert(0.9);
+    filter: invert(1);
     display: flex;
     justify-content: center;
+}
+
+.surhome:hover{
+    border-radius: 50%;
+    transition: background-color 0.2s, opacity 0.3s, visibility 0.3s;
+    background-color:rgba(0, 0, 0, 0.6);
+    transform: translate(0,-2px);
+    filter: invert(1);  
 }
 
 footer div,
@@ -77,6 +85,7 @@ nav a{
 
 nav a:hover{
     color: black;
+    
 }
 
 .navig,
@@ -88,6 +97,7 @@ nav li{
 .navig:hover,
 nav li:hover{
     background-color: rgba(255, 255, 255, 0.6);
+    
 }
 
 
@@ -171,3 +181,5 @@ footer{
   }
   
   /* /////////////////////////////////////////////////////////////////////////////////////////// */
+  /* <a href="#Portfolio"><img src="html/img/home.svg" alt="home" class="home"
+  title="remonter en haut de la page"></a> */

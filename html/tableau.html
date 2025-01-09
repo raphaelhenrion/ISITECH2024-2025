@@ -8,7 +8,7 @@
     <link href="css/styletableau.css" rel="stylesheet">
 </head>
 <body>
-    <table>
+    <table id="tableau_1">
         <caption>
           Front-end web developer course 2021
         </caption>
@@ -19,36 +19,18 @@
             <th scope="col">Age</th>
           </tr>
         </thead>
-        <tbody id="tableau_1">
-          <tr>
-            <th scope="row">Chris</th>
-            <td>HTML tables</td>
-            <td>22</td>
-          </tr>
-          <tr>
-            <th scope="row">Dennis</th>
-            <td>Web accessibility</td>
-            <td>45</td>
-          </tr>
-          <tr>
-            <th scope="row">Sarah</th>
-            <td>JavaScript frameworks</td>
-            <td>29</td>
-          </tr>
-          <tr>
-            <th scope="row">Karen</th>
-            <td>Web performance</td>
-            <td>36</td>
-          </tr>
-        </tbody>
+        <tbody>
+        
+        </tbody id="tbodyy">
         <tfoot>
           <tr>
-            <th scope="row" colspan="2">Average age</th>
-            <td id="ageMoy">33</td>
+            <th scope="row" colspan="2">age moyen :</th>
+            <td id="ageMoy">0</td>
           </tr>
         </tfoot>
       </table>
-      <button onclick="getTableau()">get tableau</button>
+      <button onclick="getTableau()">ajouter une ligne</button>
+      <button onclick="cleantab()">vider le tableau</button>
 
       <br><br><a href="https://raphaelhenrion.github.io/ISITECH2024-2025/"> back sur github</a>
       <br><br><a href="http://127.0.0.1:5500/index.html"> back sur index live server</a>
