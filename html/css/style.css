@@ -8,17 +8,22 @@ html {
     padding: 0;
 }
 
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 body{
     background-color: #1e2125;
 }
 
-.menu{
+.titre{
     color: rgb(255, 255, 255);
     font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 75px;
 }
 
 .home{
@@ -29,7 +34,8 @@ body{
     justify-content: center;
 }
 
-div{
+footer div,
+main div{
     padding: 10px;
     color: whitesmoke;
 } 
@@ -48,11 +54,19 @@ div{
     align-items: center;
 }
 
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 nav{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #0F1012;
     color: whitesmoke;
     padding: 1rem;
-    
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav a{
@@ -65,13 +79,17 @@ nav a:hover{
     color: black;
 }
 
+.navig,
 nav li{
     border-radius: 2.5px;
 }
 
+
+.navig:hover,
 nav li:hover{
     background-color: rgba(255, 255, 255, 0.6);
 }
+
 
 nav ul{
     list-style: none;
@@ -82,18 +100,45 @@ nav ul{
     gap: 1.5rem;
 }
 
-
-.credit {
-    font-size: 10px;
-    justify-content: start;
+.navig1{
+    margin-right: 20px;
 }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
+
+.footer2{
+    background-color: #0F1012;
+}
+
+.homefoot{
+    display: flex;
+    justify-content: center;
+}
+
+.credit {
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.iconsgithub{
+    filter: invert(1);
+    height: 35px;
+    width: 35px;
+    margin-left: 20px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 #scrollToTopButton {
     transition: background-color 0.2s, opacity 0.4s, visibility 0.4s;
@@ -104,7 +149,7 @@ footer{
     border-radius: 8px;
     width: 40px;
     height: 40px;
-    background-color: #1e2125;
+    background-color: #27292b;
   }
   
   #scrollToTopButton:hover,
@@ -125,3 +170,4 @@ footer{
     filter: none;
   }
   
+  /* /////////////////////////////////////////////////////////////////////////////////////////// */
